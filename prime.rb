@@ -2,7 +2,6 @@ require "pry"
 require 'benchmark'
 
 def newArray(max)
-  binding.pry 
   primes = (0..max).to_a 
   counter = 0 
   primes.each do |p|
