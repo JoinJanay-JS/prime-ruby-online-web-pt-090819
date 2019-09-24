@@ -1,7 +1,8 @@
 require "pry"
 require 'benchmark'
 
-primes
 def prime?(num)
+  newArray(num).include?(num)
+end
   
 # Add  code here!
